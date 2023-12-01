@@ -390,8 +390,11 @@ ul {
     background-color: var(--primary-color-alt);
     margin: var(--mb-3) 0;
 }
+
 .service__content {
     display: grid;
+    justify-content: right;
+    align-items: center;
     grid-template-columns: 1fr;
 }
 .service__item {
